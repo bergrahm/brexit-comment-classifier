@@ -1,5 +1,5 @@
-# Brexit Comment Classifier
-Hello!
+# Brexit Comment Classifier, Machine Learning with scikit-learn in Python
+## Hello!
 
 I am a Software Engineering Student that is interested in Machine Learning and have created this project for fun. The aim for this repository is mainly personal development, trying out different techniques and sharing some insights that I accumulate on the way. Enjoy!
 
@@ -14,3 +14,20 @@ Additionally, if you have not done so yet, this repository makes use of the skle
 $ pip install sklearn
 ```
 On successful installation, you now have access to the library that will be used for this implementation.
+
+## Execute the Classifier
+Ok. Now that you have both Python and the correct dependencies on your system you are ready to test the classifier. In this repository you will find three files:
+
+- brexit.py
+- train-data.tsv
+- test-data.tsv
+
+As you may suspect the brexit.py file is the executable file that makes use of the two tsv-files. The train-data.tsv contains the data on which the classifier will be trained on and tested onto the test-data.tsv file. In total the two files contain around 9000 documents where roughly 6700 are distributed into the train-data.tsv. 
+
+If you want to try this classifier on your own data, you can move all entries from the test-data.tsv into train-data.tsv or just replace test-data.tsv with your own test data. Just be sure to note the format of the files; that the annotations are first and separated by a tab (hence, a tsv file).
+
+To execute the classifier, first navigate to the folder containing the files in your system's terminal. Execute the following command:
+```
+$ python brexit.py
+```
+Observe the confusion matrix provided to understand how well the classifier performed. If you used the data provided you should see around ... accuracy for this set of data.
