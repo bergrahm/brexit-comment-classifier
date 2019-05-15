@@ -30,4 +30,6 @@ To execute the classifier, first navigate to the folder containing the files in 
 ```
 $ python brexit.py
 ```
+*Note: please observe that the script creates a new file named "preprocessed-brexit.tsv". This file contains a smaller training set with higher levels of agreement between annotators. This is the file on which the script trains after filtering out uncertain documents.*
+
 Observe the confusion matrix provided to understand how well the classifier performed. If you used the data provided you should see around ... accuracy for this set of data.
