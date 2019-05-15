@@ -69,7 +69,7 @@ def add_features(X):
     return X
 
 # Read finalized training and test data.
-Xtrain, Ytrain = read_data("preprosessed-brexit.tsv")
+Xtrain, Ytrain = read_data("preprocessed-brexit.tsv")
 Xtest, Ytest = read_data("test-data.tsv")
 
 # kbest features to classify the data. This makes use of the statistical effect size
