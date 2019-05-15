@@ -31,11 +31,11 @@ def read_data(filename):
 
 
 ''' 
-# Create a new file: "preprosessed-brexit.tsv". The aim is to 
+# Create a new file: "preprocessed-brexit.tsv". The aim is to 
 # filter out comments with large disagreement between annotators
-# and store the preprosessed data in this file for later use.'''
+# and store the preprocessed data in this file for later use.'''
 
-prepros = open("preprosessed-brexit.tsv","w+", encoding ="UTF8")
+prepros = open("preprocessed-brexit.tsv","w+", encoding ="UTF8")
 
 # Read the raw data
 XtrainStart, YtrainStart = read_data("train-data.tsv")
