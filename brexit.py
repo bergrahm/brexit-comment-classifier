@@ -1,10 +1,9 @@
 # dependencies and models used.
-import sklearn 
+import sklearn # $ pip install sklearn
 from sklearn.pipeline import Pipeline, FeatureUnion
 
 from sklearn.pipeline import make_pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.dummy import DummyClassifier
 from sklearn.preprocessing import StandardScaler 
 from sklearn.naive_bayes import BernoulliNB
@@ -13,10 +12,8 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import f_classif
 from sklearn.model_selection import cross_validate
-from sklearn.preprocessing import FunctionTransformer
-from sklearn.multiclass import OneVsRestClassifier
 import numpy as np
-from sklearn.metrics import confusion_matrix, mean_squared_error
+from sklearn.metrics import confusion_matrix
 
 # function for reading data in a .tsv file.
 def read_data(filename):
