@@ -2,7 +2,6 @@
 import sklearn # $ pip install sklearn
 from sklearn.pipeline import Pipeline, FeatureUnion
 
-from sklearn.pipeline import make_pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.dummy import DummyClassifier
 from sklearn.preprocessing import StandardScaler 
