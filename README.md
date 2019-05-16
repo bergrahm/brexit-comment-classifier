@@ -33,3 +33,6 @@ $ python brexit.py
 *Note: please observe that the script creates a new file named "preprocessed-brexit.tsv". This file contains a smaller training set with higher levels of agreement between annotators. This is the file on which the script trains after filtering out uncertain documents.*
 
 Observe the confusion matrix provided to understand how well the classifier performed. If you used the data provided you should see around 79% accuracy for this set of data.
+
+## About
+The data has been crowd-sourced from various forums on the internet. There has been no sanitation for duplicate comments from the crowd and it could possibly have implications on how the model classifies the test set, though I choose to ignore this and blindly believe that it makes for stronger association in the f-score (hopefully all the annotations agree on the same thing). Additionally the annotations have been made in different rounds from different people so that bias where the comment was mined from is removed, context is a large factor to understanding whether some comments are for or against Brexit. 
