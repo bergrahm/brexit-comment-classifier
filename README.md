@@ -9,7 +9,7 @@ This repository contains files that make use of the sklearn API to classify whet
 
 Before we being, it's worth mentioning that the code was written in Python version 3.6, and thus to avoid unecessary errors it is recommended that you have 3.6 or later version installed. I've not tested if this walkthrough runs smoothly on older versions (I guess it should, but who knows).
 
-Additionally, this repository makes use of the sklearn API and requires you to make use of it too in order to run it successfully. So if you haven't already done so, try to following command in your terminal:
+Additionally, this repository makes use of the sklearn API and requires you to make use of it in order to run it successfully. So if you haven't done so already, try the following command in your terminal:
 ```
 $ pip install sklearn
 ```
@@ -35,6 +35,6 @@ $ python brexit.py
 Observe the confusion matrix provided to understand how well the classifier performed. If you used the data provided you should see around 79% accuracy for this set of data.
 
 ## About
-The data has been crowd-sourced from various forums on the internet. There has been no sanitation for duplicate comments from the crowd and it could possibly have implications on how the model classifies the test set, though I choose to ignore this and blindly believe that it makes for stronger association in the f-score (hopefully all the annotations agree on the same thing). Additionally the annotations have been made in different rounds from different people so that bias where the comment was mined from is removed, context is a large factor to understanding whether some comments are for or against Brexit.
+The data has been crowd-sourced from various forums on the internet. There has been no sanitation for duplicate comments from the crowd and it could possibly have implications on how the model classifies the test set, though I choose to ignore this and blindly believe that it makes for stronger association in the f-score (hopefully all the annotations agree on the same thing). Finally, the annotations have been made in different rounds from different people so that bias where the comment was mined from is removed, context is a large factor to understanding whether some comments are for or against Brexit.
 
 If you want to learn more about scikit-learn, you can visit them on their website and read the documentation here: https://scikit-learn.org/stable/
