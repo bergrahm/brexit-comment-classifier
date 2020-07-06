@@ -1,7 +1,4 @@
 # Brexit Comment Classifier, Machine Learning with scikit-learn in Python
-## Hello!
-
-I am a Software Engineering Student that is interested in Machine Learning and have created this project for fun. The aim for this repository is mainly personal development, trying out different techniques and sharing some insights that I accumulate on the way. Enjoy!
 
 ## Get Started
 
